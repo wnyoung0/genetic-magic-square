@@ -1,7 +1,7 @@
 import magicArray as ma
 import random
 from copy import deepcopy
-ma.config('config.json')
+ma.config('config.json')#실제 파일 이름으로 대체해야함
 
 mm=ma.ArrayManager()
 
