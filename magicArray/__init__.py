@@ -4,7 +4,6 @@ from copy import deepcopy
 import json
 size=0
 sums=[]
-epoch=0
 def config(file):
     cF=open(file,'r')
     cfs=json.load(cF)
@@ -12,8 +11,6 @@ def config(file):
     size=cfs['size']
     global sums
     sums=cfs['sums']
-    global epoch
-    epoch=cfs['epoch']
 def score(array):
     d=[]
     S=0
