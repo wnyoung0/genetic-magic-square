@@ -1,6 +1,6 @@
-<h1>Magic Moshggangyi with Genetic Algorithm</h1>
+<h1>Genetic Magic Square</h1>
 <hr>
-마법의 모시깽이 를! 유전 알고리즘으로 생성
+마방진을 유전 알고리즘으로 생성
 <br>
 <h2>사용법</h2>
 config: json파일의 위치를 입력받는다.<br>
