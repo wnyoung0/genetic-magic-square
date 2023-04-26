@@ -3,10 +3,10 @@ import random
 from copy import deepcopy
 import json
 import matplotlib.pyplot as plt
-ma.config('star.json')
+ma.config('data/star.json')
 mm=ma.ArrayManager()
 
-dataF=open('data.json','r')
+dataF=open('data/data.json','r')
 data=json.load(dataF)
  
 
