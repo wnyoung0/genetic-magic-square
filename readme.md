@@ -9,6 +9,8 @@ config: json파일의 위치를 입력받는다.<br>
   <dd>배열의 크기</dd>
   <dt>sums</dt>
   <dd>합이 같도록 할 인덱스들의 목록의 목록(0부터 시작)</dd>
+  <dt>default</dt>
+  <dd>기본 배열. 중간에 프로그램이 멈춰서 다시 시작하거나 라틴 마방진 만들 때 사용</dd>
   </dl>
   <br>
 score: sums의 내용대로 합을 구한 뒤에 합들의 분산을 출력<br>
@@ -39,4 +41,4 @@ ArrayManager: 동적으로 여러개의 MagicArray를 생성했을 때 사용<br
   <dd>리스트에 들어있는 MagicArray의 개수를 반환</dd>
   </dl>
 <br><br>
-<hr>자세한건 알아서 알아내도록 해라
+<hr>orthogonal은 신경쓰지 마세요(그냥 비워두세요)
